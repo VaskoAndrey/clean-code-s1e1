@@ -50,12 +50,12 @@
 }
 
 .list__item, .title {
-  list-style:none;
+  list-style: none;
 }
 
 .input,
 .button{
-  outline:none;
+  outline: none;
 }
 
 .button--edit,
@@ -160,14 +160,14 @@ list__item. > .input[type="checkbox"] {
 
 /* Edit Task */
 .list__item .input[type="text"] {
-  display:none
+  display: none
 }
 
 .list__item--editMode .input[type="text"] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .list__item--editMode .label {
-  display:none;
+  display: none;
 }
