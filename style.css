@@ -11,7 +11,7 @@
     display: block;
     text-align: right;
 }
-.header img {
+.header__img {
     width: 100%;
 }
 .header .header__link {
@@ -43,7 +43,8 @@
 .main__title {
     list-style: none;
 }
-.input, .button {
+.input,
+.button {
     outline: none;
 }
 .button,
