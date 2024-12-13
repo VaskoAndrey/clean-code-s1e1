@@ -11,7 +11,7 @@
   >
 </head>
 <body class="body">
-  <div class="header">
+  <header class="header">
     <img class="header__img" src="./eisenhower-matrix.jpg">
     <a
       class="header__link"
@@ -19,9 +19,9 @@
     >
       Want more details?
     </a>
-  </div>
-  <div class="main">
-    <p id="add-element">
+  </header>
+  <main class="main">
+    <section id="add-element">
       <label for="new-task" class="label">Add Item</label>
       <div class="main__wrapper">
         <input
@@ -31,45 +31,49 @@
         >
         <button class="button">Add</button>
       </div>
-    </p>
-    <h3 class="main__title">Todo</h3>
-    <ul id="incomplete-tasks" class="list">
-      <li class="list__item">
-        <input type="checkbox" class="input">
-        <label class="grow label">Pay Bills</label>
-        <input type="text" class="input grow">
-        <button class="button button--edit">Edit</button>
-        <button class="button button--delete">
-          <img src="./remove.svg">
-        </button>
-      </li>
-      <li class="list__item list__item--edit-mode">
-        <input type="checkbox" class="input">
-        <label class="grow label">Go Shopping</label>
-        <input
-          type="text"
-          value="Go Shopping"
-          class="input grow"
-        >
-        <button class="button button--edit">Save</button>
-        <button class="button button--delete">
-          <img src="./remove.svg">
-        </button>
-      </li>
-    </ul>
-    <h3 class="main__title">Completed</h3>
-    <ul id="completed-tasks" class="list">
-      <li class="list__item">
-        <input type="checkbox" checked class="input">
-        <label class="grow label">See the Doctor</label>
-        <input type="text" class="input grow">
-        <button class="button button--edit">Edit</button>
-        <button class="button button--delete">
-          <img class="button--delete__img" src="./remove.svg">
-        </button>
-      </li>
-    </ul>
-  </div>
+    </section>
+    <section>
+      <h1 class="main__title">Todo</h1>
+      <ul id="incomplete-tasks" class="list">
+        <li class="list__item">
+          <input type="checkbox" class="input">
+          <label class="grow label">Pay Bills</label>
+          <input type="text" class="input grow">
+          <button class="button button--edit">Edit</button>
+          <button class="button button--delete">
+            <img src="./remove.svg">
+          </button>
+        </li>
+        <li class="list__item list__item--edit-mode">
+          <input type="checkbox" class="input">
+          <label class="grow label">Go Shopping</label>
+          <input
+            type="text"
+            value="Go Shopping"
+            class="input grow"
+          >
+          <button class="button button--edit">Save</button>
+          <button class="button button--delete">
+            <img src="./remove.svg">
+          </button>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2 class="main__title">Completed</h2>
+      <ul id="completed-tasks" class="list">
+        <li class="list__item">
+          <input type="checkbox" checked class="input">
+          <label class="grow label">See the Doctor</label>
+          <input type="text" class="input grow">
+          <button class="button button--edit">Edit</button>
+          <button class="button button--delete">
+            <img class="button--delete__img" src="./remove.svg">
+          </button>
+        </li>
+      </ul>
+    </section>
+  </main>
   <script src="app.js"></script>
 </body>
 </html>
